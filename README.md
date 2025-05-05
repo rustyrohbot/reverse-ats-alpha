@@ -51,16 +51,6 @@ python generate-template.py
 
 This will create a file named `Reverse_ATS_Template.xlsx` in the current directory.
 
-### Customizing the Data
-
-If you want to modify the dummy data or structure, edit the data definitions in `generate-template.py`:
-
-- `companies_data`: List of companies you're applying to
-- `roles_data`: Job positions at those companies
-- `contacts_data`: Recruiter and hiring manager information
-- `interviews_data`: Interview details
-- `interviews_contacts_data`: Mapping between interviews and contacts
-
 ### Uploading to Google Sheets
 
 The generated Excel file can be uploaded to Google Sheets:
